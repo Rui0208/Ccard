@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+@import "./_navbar.scss";
+@import "./_slidebar.scss";
+@import "./_post.scss";
+@import "./_profilebar.scss";
+@import "./myprofile.scss";
+@import "./detailPost.scss";
+@import "./_newpost.scss";
+@import "./_auth.scss";

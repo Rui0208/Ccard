@@ -1,0 +1,87 @@
+.container
+{  
+    background-color: #00324e;
+    .post-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        // margin-left: 5rem;
+        z-index: 100;
+    width: 65vw;
+    background-color: white;
+    .top-title{
+        font-size: 1.25rem;
+        width: 65vw;
+        padding: 1rem;
+        font-weight: bold;
+        // border-bottom: .25px solid #000000; 
+        box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+        background-color: white;
+        position: sticky;
+        top:6vh;
+    }
+    .post{
+        cursor: pointer;
+        background-color: white;
+        width: 60vw;
+        border-bottom: 0.5px solid rgb(0, 106, 166);
+        padding: 1rem;
+        display: flex;
+        justify-content: space-between;
+
+
+     .leftItem {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        .top{
+            background-color: white;
+            display: flex;
+            align-items: center;
+            p{color: rgba(0, 0, 0, 0.5);}
+            .user-img{
+                margin-right: 0.25rem;
+                background-color: white;
+            }
+        }
+        article{
+
+            padding: 0.25rem 0rem;
+            header{
+                font-size: 1.25rem;
+                font-weight: bold;
+                padding: 0.25rem 0rem;
+            }
+            .preview-description
+            {   
+                width: 46vw;
+                white-space: nowrap;
+                overflow: hidden;
+                padding: 0.25rem 0rem;
+            }
+            .datas{
+                align-items: flex-end;
+                margin-top: 1rem;
+                background-color: white;
+                span{color: rgba(0, 0, 0, 0.5);}
+                svg{
+                    margin: 0rem 0.5rem;
+                }
+            }
+        }}
+    }
+    .rightItem{
+        background-color: white;
+        display: flex;
+        align-items: center;
+        img{
+            width: 150px;
+            height: 150px;
+            border-radius: 10%;
+            &:hover{
+                scale: 125%;
+            }
+        }
+
+    }
+}}

@@ -1,0 +1,35 @@
+.userbar{
+    width: 22vw;
+    height: 92vh;
+    background-color: #00324e;
+    position: sticky;
+    top:6vh;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    .user-img{
+        margin-top: 3rem;
+    }
+    p{   font-size: 2rem;
+        font-weight: bold;
+         padding: 1rem;}
+   ul{
+    margin-top: 1rem;
+    li{
+        padding: 1rem;
+        &:hover{
+            cursor: pointer;
+            color: #4a84a1;
+        }
+    }
+    }
+}
+.profile-title{
+    font-size: 1.25rem;
+    width: 65vw;
+    padding: 1rem;
+    font-weight: bold;
+    border-bottom: .25px solid #000000; 
+}

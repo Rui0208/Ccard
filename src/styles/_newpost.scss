@@ -1,0 +1,80 @@
+.newpost-backgrundcontainer{
+    background-color: #00324e;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+    position: fixed;
+    top:0vh;
+    left: 0;
+    overflow: scroll;
+
+        .newpost-container{
+            background-color: white;
+            position: relative;
+            left: 15%;
+            right: 15%;
+            display: flex;
+            justify-content: center;
+            border: 1px solid black;
+            height: 100vh;
+            width: 70vw;
+            overflow: scroll;
+        .new-post{
+            display: flex;
+            flex-direction: column;
+            width: 100vw;
+            height: 100%;
+            position: relative;
+            .setImg{
+                img{margin-top: 1rem;}
+               label{
+                svg{
+                    font-size: 2rem;
+                    padding: 0.5rem;
+                    cursor: pointer;
+                }
+               }
+                }
+                select{
+                    width: 20%;
+                    background-color: rgba(0, 16, 32, 0.06);
+                    padding: 0.25rem;
+                    font-size: 1rem;
+                    
+                }
+                .new-title{
+                    font-size: 1.5rem;
+                    height: 10vh;
+                }
+                .new-content{
+                    font-size: 1.25rem;
+                    height: 35vh;
+                }
+                textarea{
+                    outline: none;
+                    resize: none;
+                    padding: 0.5rem;
+                    overflow:auto;
+                    border: none;
+                }
+                .newpost-control{
+                    display: flex;
+                    justify-content: flex-end;
+                    position: absolute;
+                    bottom: 0;
+                    right: 0;
+                    button{
+                        padding: 0.5rem;
+                        margin: 0.25rem;
+                        background-color: white;
+                        width: 5rem;
+                        height: 3rem;
+                        &:hover{
+                            cursor: pointer;
+                            background-color: #a7b2b8;
+                        }
+                    }
+                }
+        }
+    }
+}

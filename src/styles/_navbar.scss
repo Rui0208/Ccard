@@ -1,0 +1,67 @@
+.navbar{
+    position: sticky;
+    top:0;
+    left: 0;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    ul{
+        display: flex;
+        height: 6vh;
+        width: 100vw;
+        background-color: rgb(0, 106, 166);
+        align-items: center;
+      
+            li{
+                display: flex;
+                justify-content: center;
+                color: whitesmoke;
+                cursor: pointer;
+                // margin: 1rem 0rem
+            }
+            .logo{
+                // margin-left: 3rem;
+                flex: 1 1 100px;
+                p{font-size: 1.5rem;
+                font-weight: bolder;}
+            }
+            .search{
+                // margin: 0rem 3rem;
+                flex: 2 1 500px;
+                justify-content: flex-start;
+                input{
+                    width: 38vw;
+                    height: 30px;
+                    background-color: #00588a;
+                    color: white;
+                    border: none;
+                    padding: 0.5rem;
+                    &:focus{
+                        outline: none;
+                    }
+                }
+                button{
+                    background-color: rgb(0, 106, 166);
+                    width: 2rem;
+                    border-color: rgb(0, 88, 138);
+                   cursor: pointer;
+                }
+            }
+            .post{
+                flex:4 1 300px;
+                justify-content: flex-end;
+            }
+            .user{
+                flex: 1 1 50px;
+                justify-content: flex-end;
+                margin-right: 2rem;
+            }
+        .logout{
+            flex:1 1 50px;
+            margin-right: 2rem;
+        }
+      } 
+   
+}
+.hidden {
+    display: none;
+  }
