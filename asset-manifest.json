@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Ccard/static/css/main.5a4bf8a1.css",
+    "main.js": "/Ccard/static/js/main.06b97aac.js",
+    "index.html": "/Ccard/index.html",
+    "main.5a4bf8a1.css.map": "/Ccard/static/css/main.5a4bf8a1.css.map",
+    "main.06b97aac.js.map": "/Ccard/static/js/main.06b97aac.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5a4bf8a1.css",
+    "static/js/main.06b97aac.js"
+  ]
+}
