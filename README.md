@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# Ccard
+# Project 介紹
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+此專案是以 Clone Dcard 網站作為基礎，練習使用firebase
+前端框架使用 React 
+後端使用firebase架設
+Authentication儲存使用者
+Firestore 儲存文章
+Storage 儲存圖片
+Hoisting 部署網站
+#
 
-## Available Scripts
+#  部屬網站
+https://dcard-clone-8ad95.web.app/
+#
 
-In the project directory, you can run:
+# 功能特色
+1.可登入註冊
+2.發布貼文可上傳圖片選擇分類
+3.留言功能
+4.按讚功能
+5.收藏功能
+6.搜尋文章標題
+7.修改會員資料
+8.讀取限制滾輪到底才繼續讀取
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#畫面預覽
+![登入註冊](./client/public/images/登入註冊.gif)
+![會員資料修改](./client/public/images/會員資料修改.gif)
+![發布文章](./client/public/images/發布文章.gif)
+![留言按讚](./client/public/images/留言按讚.gif)
+![文章收藏](./client/public/images/文章收藏.gif)
+![限制讀取](./client/public/images/限制讀取.gif)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
