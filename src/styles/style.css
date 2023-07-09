@@ -439,7 +439,6 @@
 .detail-container .container .comments {
   padding: 1.5rem;
   width: 58vw;
-  height: 40vh;
   background-color: rgb(245, 245, 245);
 }
 .detail-container .container .comments .count {
