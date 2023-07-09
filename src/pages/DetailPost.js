@@ -205,7 +205,7 @@ const DetailPost = () => {
                 />
               )}
               <span className="displayname">{post?.author?.displayName}</span>
-              {post?.author?.uid === auth.uid && (
+              {post?.author?.uid === auth?.uid && (
                 <span
                   className="edit-post"
                   onClick={() => {
@@ -279,10 +279,10 @@ const DetailPost = () => {
               {comments.map((item, index) => {
                 return (
                   <div className="comment">
-                    {auth?.photoURL ? (
+                    {item.author?.photoURL ? (
                       <img
                         className="userimg"
-                        src={auth.photoURL}
+                        src={item.author?.photoURL}
                         alt="pic"
                         style={{
                           width: "30px",
@@ -302,7 +302,7 @@ const DetailPost = () => {
                       />
                     )}
                     <span>{item.author.displayName}</span>
-                    {item.author.uid === auth.uid && (
+                    {item.author.uid === auth?.uid && (
                       <span className="edit-comment" onClick={handleDropDown}>
                         <FontAwesomeIcon
                           icon={faEllipsisVertical}
