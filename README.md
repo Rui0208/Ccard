@@ -3,10 +3,15 @@
 
 此專案是以 Clone Dcard 網站作為基礎，練習使用firebase
 前端框架使用 React 
+
 後端使用firebase架設
+
 Authentication儲存使用者
+
 Firestore 儲存文章
+
 Storage 儲存圖片
+
 Hoisting 部署網站
 #
 
