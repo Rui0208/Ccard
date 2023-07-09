@@ -27,12 +27,12 @@ https://dcard-clone-8ad95.web.app/
 
 
 #畫面預覽
-![登入註冊](./client/public/images/登入註冊.gif)
-![會員資料修改](./client/public/images/會員資料修改.gif)
-![發布文章](./client/public/images/發布文章.gif)
-![留言按讚](./client/public/images/留言按讚.gif)
-![文章收藏](./client/public/images/文章收藏.gif)
-![限制讀取](./client/public/images/限制讀取.gif)
+![登入註冊](./public/images/登入註冊.gif)
+![會員資料修改](./public/images/會員資料修改.gif)
+![發布文章](./public/images/發布文章.gif)
+![留言按讚](./public/images/留言按讚.gif)
+![文章收藏](./public/images/文章收藏.gif)
+![限制讀取](./public/images/限制讀取.gif)
 
 
 
