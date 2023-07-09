@@ -34,6 +34,7 @@ https://dcard-clone-8ad95.web.app/
 
 
 #畫面預覽
+
 ![登入註冊](./public/images/登入註冊.gif)
 ![會員資料修改](./public/images/會員資料修改.gif)
 ![發布文章](./public/images/發布文章.gif)
